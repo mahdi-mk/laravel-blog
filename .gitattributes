@@ -1,1 +1,1 @@
-*.php linguist-detectable=true
+*.rb linguist-language=Java
