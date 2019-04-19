@@ -35,4 +35,28 @@ Role | Ability
 SuperAdmin | everything
 Editor | Can Create categories. Can delete and edit all articles and users.
 
+## Images
+![Register](Docs/images/Register.png)
+
+![Login](Docs/images/Login.png)
+
+![Profile](Docs/images/Profile.png)
+
+![Home](Docs/images/Home.png)
+
+![Create](Docs/images/Create.png)
+
+![Category](Docs/images/Category.png)
+
+![Dashboard](Docs/images/Dashboard.png)
+
+![Categories](Docs/images/Categories.png)
+
+
+
+
+
+
+
+
 
