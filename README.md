@@ -20,19 +20,19 @@ This is my first project in laravel 5.8. It's a simple blog website.
 
 ## Routes Pattern
 ### Article
-- Show: '/articles/article_id/title'
-- Edit: '/articles/article_id/edit'
+- Show: `/articles/article_id/title`
+- Edit: `/articles/article_id/edit`
 
 ### Profile
-- Profile: '/profile/user_id/username/'
+- Profile: `/profile/user_id/username/`
 
 ### Category
-- Show: '/categories/category_id/category_name'
+- Show: `/categories/category_id/category_name`
 
 ## Roles and abilities
 Role | Ability
 ------------ | -------------
 SuperAdmin | everything
-Editor | Create categories. Can delete and edit all articles and users.
+Editor | Can Create categories. Can delete and edit all articles and users.
 
 
