@@ -53,13 +53,3 @@ Editor | Can Create categories. Can delete and edit all articles and users.
 ![Categories](Docs/images/Categories.png)
 
 ![Users](Docs/images/Users.png)
-
-
-
-
-
-
-
-
-
-
