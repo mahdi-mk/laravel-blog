@@ -1,5 +1,5 @@
 # Laravel Blog 
-This is my first project in laravel 5.8. It's a simple blog website.
+This is my first project using laravel 5. It's a simple blog. You can register to the blog and create, edit and delete your own articles.
 ## Used packages
 * [Bouncer](https://github.com/JosephSilber/bouncer).
 * [Eloquent-Sluggable](https://github.com/cviebrock/eloquent-sluggable).
