@@ -36,22 +36,22 @@ SuperAdmin | everything
 Editor | Can Create categories. Can delete and edit all articles and users.
 
 ## Images
-Rgister
+- Rgister
 ![Register](Docs/images/Register.png)
 
-Login
+- Login
 ![Login](Docs/images/Login.png)
 
-User Profile
+- User Profile
 ![Profile](Docs/images/Profile.png)
 
-Home
+- Home
 ![Home](Docs/images/Home.png)
 
-Create Article
+- Create Article
 ![Create](Docs/images/Create.png)
 
-Category Page
+- Category Page
 ![Category](Docs/images/Category.png)
 
 ![Dashboard](Docs/images/Dashboard.png)
