@@ -1,5 +1,13 @@
 # Laravel Blog 
 This is my first project using laravel 5. It's a simple blog. You can register to the blog and create, edit and delete your own articles.
+
+# Table of Contents
+1. [ Used Packages. ](#UsedPackages)
+2. [ Features. ](#Features)
+3. [ Screenshots. ](#Screenshots)
+4. [ Installation. ](#Installation)
+
+
 ## Used packages
 * [Bouncer](https://github.com/JosephSilber/bouncer).
 * [Eloquent-Sluggable](https://github.com/cviebrock/eloquent-sluggable).
@@ -15,7 +23,7 @@ This is my first project using laravel 5. It's a simple blog. You can register t
 8. TinyMCE Editor for beatiful article's content.
 9. Dahboard for admin.
 
-## Images
+## Screenshots
 
 ![Register](Docs/images/Register.png)
 
