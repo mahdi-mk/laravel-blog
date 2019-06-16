@@ -8,21 +8,12 @@ This is my first project using laravel 5. It's a simple blog. You can register t
 1. Anyone can register and login.
 2. Each user has a profile.
 3. Users can add articles, edit and delete.
-4. Event and listeners.
-5. Send E-mail to the users whene they create, delete or update their articles.
-6. Each user has roles and abilities.
-7. You can only edit and delete your own articles so everything is protected.
-8. All articles are categorized.
-9. Many-to-Many relationship between articles and categories.
-10. TinyMCE Editor for beatiful article's content.
-11. Bootstrap templates with some custom styles.
-12. Dahboard for admin.
-
-## Roles and abilities
-Role | Ability
------------- | -------------
-SuperAdmin | everything
-Editor | Can Create categories. Can delete and edit all articles and users.
+4. Send E-mail to the users whene they create, delete or update their articles.
+5. Each user has roles and abilities.
+6. All articles are categorized.
+7. Many-to-Many relationship between articles and categories.
+8. TinyMCE Editor for beatiful article's content.
+9. Dahboard for admin.
 
 ## Images
 
@@ -51,3 +42,17 @@ Editor | Can Create categories. Can delete and edit all articles and users.
 
 
 ![Users](Docs/images/Users.png)
+
+## Installation
+1. Download .zip file.
+2. Open phpMyAdmin and create new database named `blog`. You can change this name but don't forget to change the database name in `.env` file.
+3. Go to Docs directory, there is a file named blog.sql.
+4. Import `blog.sql` file in your database(the database you've created in the step 2).([How to import MySQL database and tables using phpMyAdmin? ](https://www.youtube.com/watch?v=jW5lrS6EUPM)).
+5. Open the project using any code editor and run `php artisan serve` in the terminal.
+6. Open localhost:8000.
+7. You need to login as a superadmin. Go to `localhost:8000/login` and login using this informations:
+    E-mail: admin@example.com
+    Password: 123456.
+8. Now, there are three articles and three users and three categories in the database, run `php artisan migrate:refresh` in the terminal to refresh your database.
+
+
